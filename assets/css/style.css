@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap%27");
+
+/* font-family: 'Karla', sans-serif; */
+/* Farbe: #323A45 / #848484 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+}
+html {
+  font-family: "Karla", sans-serif;
+}
+
+img {
+  width: 100%;
+  transition: all 0.5s;
+}
+img:hover {
+  opacity: 0.5;
+}
+main p {
+  text-align: right;
+  margin-left: 50%;
+}
+h3 {
+  color: #323a45;
+}
+h4 {
+  color: #848484;
+  margin-right: 60%;
+  margin-top: -20px;
+}
+header {
+  display: flex;
+}
+.shop {
+  display: flex;
+  align-items: flex-start;
+  font-family: "Karla", sans-serif;
+  padding: 20px;
+  color: #323a45;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+nav div {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+nav a {
+  text-decoration: none;
+  font-family: "Karla", sans-serif;
+  color: #323a45;
+}
+
+.sixImg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.threeImg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+footer section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+footer p {
+  margin-right: 50%;
+}
+
+footer a {
+  text-decoration: none;
+  display: block;
+  color: #323a45;
+}
+footer h3:nth-of-type(1){
+    margin-right: 50%;
+}
+footer h3{
+   border: 2px red solid;
+   
+}
+li {
+  display: inline-block;
+}
+li:nth-of-type(1) {
+  list-style: none;
+}
+li:nth-of-type(2) {
+  margin-left: 20px;
+}
+li:nth-of-type(2)::before {
+  list-style: circle;
+}
