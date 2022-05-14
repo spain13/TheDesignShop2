@@ -85,13 +85,10 @@ footer a {
   display: block;
   color: #323a45;
 }
-footer h3:nth-of-type(1){
-    margin-right: 50%;
+footer h3:nth-of-type(1) {
+  margin-right: 50%;
 }
-footer h3{
-   border: 2px red solid;
-   
-}
+
 li {
   display: inline-block;
 }
